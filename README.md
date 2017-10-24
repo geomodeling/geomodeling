@@ -1,5 +1,12 @@
+# math methods
+numerical methods
+
+Tasks:
+* Task1 = [Tri Diagonal Matrix Algorithm]()
+* Task2 = [Gaussian elimination]()
+
 # geomodeling
-numerical method and geomodeling for students
+geomodeling labs for students
 
 Tasks:
 * Taks1 = [1d heat equation explicit](https://trinket.io/python3/9c0cb0ae3f)
