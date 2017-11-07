@@ -1,9 +1,14 @@
-# math methods
-numerical methods
+
+# numerical methods
 
 Tasks:
-* Task1 = [Tri Diagonal Matrix Algorithm]()
-* Task2 = [Gaussian elimination]()
+
+* Task01:
+  * a = [Tri Diagonal Matrix Algorithm]()
+  * b = [Gaussian elimination](https://repl.it/Nr9u)
+* Task02 = [linear regression]()
+* Task03 = [cubic spline](https://repl.it/NraA)
+
 
 # geomodeling
 geomodeling labs for students
