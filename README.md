@@ -4,10 +4,10 @@
 Tasks:
 
 * Task01:
-  * a = [Tri Diagonal Matrix Algorithm]()
+  * a = [Tri Diagonal Matrix Algorithm](https://repl.it/NraA)
   * b = [Gaussian elimination](https://repl.it/Nr9u)
 * Task02 = [linear regression]()
-* Task03 = [cubic spline](https://repl.it/NraA)
+* Task03 = [cubic spline]()
 
 
 # geomodeling
