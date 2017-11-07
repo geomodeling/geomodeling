@@ -46,8 +46,8 @@ def simple_linear_regression(train, test):
 		yhat = b0 + b1 * x
 		predictions.append(yhat)
 		x_arr.append(x)
-	plt.plot(test)
-	plt.plot(x_arr, predictions)
+	plt.plot(test, 'ro')
+	plt.plot(x_arr, [pr + 1 for pr in predictions])
 	plt.show()
 	return predictions
  
