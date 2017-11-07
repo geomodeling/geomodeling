@@ -39,10 +39,16 @@ def rmse_metric(actual, predicted):
 # Simple linear regression algorithm
 def simple_linear_regression(train, test):
 	predictions = list()
+	x_arr = list()
 	b0, b1 = coefficients(train)
 	for row in test:
-		yhat = b0 + b1 * row[0]
+		x = row[0]
+		yhat = b0 + b1 * x
 		predictions.append(yhat)
+		x_arr.append(x)
+	plt.plot(test)
+	plt.plot(x_arr, predictions)
+	plt.show()
 	return predictions
  
 # Evaluate regression algorithm on training dataset
@@ -61,8 +67,4 @@ def evaluate_algorithm(dataset, algorithm):
 # Test simple linear regression
 dataset = np.array([[1, 1], [2, 3], [4, 3], [3, 2], [5, 5]])
 rmse, predicted = evaluate_algorithm(dataset, simple_linear_regression)
-y, x = dataset.T
-plt.scatter(x, y)
-plt.plot(predicted)
-plt.show()
 print('RMSE: %.3f' % (rmse))
