@@ -4,7 +4,7 @@
 Tasks:
 
 * Task01:
-  * a = [Tri Diagonal Matrix Algorithm](https://repl.it/NraA)
+  * a = [Tri Diagonal Matrix Algorithm](https://repl.it/NraA/2)
   * b = [Gaussian elimination](https://repl.it/Nr9u)
 * Task02 = [linear regression]()
 * Task03 = [cubic spline]()
