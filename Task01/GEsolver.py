@@ -1,5 +1,8 @@
 import numpy as np
-#Gaussian elimination solver
+
+##########################################
+# Gaussian elimination solver
+##########################################
 def GEsolver(A, b):
     n = len(A)
     # Forward elimination
@@ -25,9 +28,11 @@ A = np.array([
         [1,2,4,8]
 ])
 b = np.array([14,4,2,2])
+
+##########################################
+# Show result
 ##########################################
 print("result from lib function:")
 print(np.linalg.solve(A, b))
 print("result from custom function:")
 print(GEsolver(A,b))
-##########################################

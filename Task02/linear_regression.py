@@ -36,7 +36,9 @@ def rmse_metric(actual, predicted):
 	mean_error = sum_error / float(len(actual))
 	return sqrt(mean_error)
  
-# Simple linear regression algorithm
+##########################################
+# Plot linear regression
+##########################################
 def simple_linear_regression(train, test):
 	predictions = list()
 	x_arr = list()
@@ -47,11 +49,13 @@ def simple_linear_regression(train, test):
 		predictions.append(yhat)
 		x_arr.append(x)
 	plt.plot(test, 'ro')
-	plt.plot(x_arr, [pr + 1 for pr in predictions])
+	plt.plot([x - 1 for x in x_arr], [pr  for pr in predictions])
 	plt.show()
 	return predictions
  
-# Evaluate regression algorithm on training dataset
+##########################################
+# Compute linear regression
+##########################################
 def evaluate_algorithm(dataset, algorithm):
 	test_set = list()
 	for row in dataset:
@@ -64,7 +68,13 @@ def evaluate_algorithm(dataset, algorithm):
 	rmse = rmse_metric(actual, predicted)
 	return rmse, predicted
 
-# Test simple linear regression
+##########################################
+# Test data
+##########################################
 dataset = np.array([[1, 1], [2, 3], [4, 3], [3, 2], [5, 5]])
+
+##########################################
+# Output
+##########################################
 rmse, predicted = evaluate_algorithm(dataset, simple_linear_regression)
 print('RMSE: %.3f' % (rmse))

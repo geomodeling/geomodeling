@@ -1,5 +1,8 @@
 import numpy as np
 
+##########################################
+# Tridiagonal matrix algorithm
+##########################################
 def TDMAsolver(A, res):
     a = A.diagonal(-1)
     b = A.diagonal(0)
@@ -30,9 +33,11 @@ A = np.array([
     [0, 0, 3, 4]
 ])
 b = np.array([3.,4,5,6])
+
+##########################################
+# Show result
 ##########################################
 print("result from lib function:")
 print(np.linalg.solve(A, b))
 print("result from custom function:")
 print(TDMAsolver(A, b))
-##########################################

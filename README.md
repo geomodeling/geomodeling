@@ -9,6 +9,7 @@ Tasks:
 * Task02 = [linear regression](https://trinket.io/python3/9c0cb0ae3f)
 * Task03 = [cubic spline](https://trinket.io/python/0793687aa3)
 * Task04 = [fft](https://repl.it/@geomodeling/fft)
+* Task05 = [classical Runge–Kutta method](https://repl.it/@geomodeling/rg4)
 
 
 # geomodeling
