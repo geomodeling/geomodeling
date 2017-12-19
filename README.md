@@ -6,8 +6,8 @@ Tasks:
 * Task01:
   * a = [Tri Diagonal Matrix Algorithm](https://repl.it/@geomodeling/TDMAsolver)
   * b = [Gaussian elimination](https://repl.it/@geomodeling/GEsolver)
-* Task02 = [linear regression]()
-* Task03 = [cubic spline]()
+* Task02 = [linear regression](https://nbviewer.jupyter.org/github/Ubun1/geomodeling/blob/master/Task02/task02.ipynb)
+* Task03 = [cubic spline](https://nbviewer.jupyter.org/github/Ubun1/geomodeling/blob/master/Task03/task03.ipynb)
 * Task04 = [fft](https://repl.it/@geomodeling/fft)
 * Task05 = [classical Runge–Kutta method](https://repl.it/@geomodeling/rg4)
 
