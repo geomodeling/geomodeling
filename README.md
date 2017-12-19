@@ -4,13 +4,14 @@
 Tasks:
 
 * Task01:
-  * a = [Tri Diagonal Matrix Algorithm](https://repl.it/NraA/2)
-  * b = [Gaussian elimination](https://repl.it/Nr9u)
-* Task02 = [linear regression](https://trinket.io/python3/9c0cb0ae3f)
-* Task03 = [cubic spline](https://trinket.io/python/0793687aa3)
+  * a = [Tri Diagonal Matrix Algorithm](https://repl.it/@geomodeling/TDMAsolver)
+  * b = [Gaussian elimination](https://repl.it/@geomodeling/GEsolver)
+* Task02 = [linear regression]()
+* Task03 = [cubic spline]()
 * Task04 = [fft](https://repl.it/@geomodeling/fft)
 * Task05 = [classical Runge–Kutta method](https://repl.it/@geomodeling/rg4)
 
+[try it!](https://try.jupyter.org/)
 
 # geomodeling
 geomodeling labs for students
