@@ -3,6 +3,7 @@
 # default application storage directory used by the IDE Performance Cache feature
 .data/
 
+.vscode/
 # used for ADF styles caching
 temp/
 
