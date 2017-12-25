@@ -11,7 +11,9 @@ Tasks:
   * [algorithm explanation](https://nbviewer.jupyter.org/github/Ubun1/geomodeling/blob/master/Task03/cubic_splinev3.ipynb)
   * [code](https://nbviewer.jupyter.org/github/Ubun1/geomodeling/blob/master/Task03/cubic_spline_plot.ipynb)
 * Task04 = [fft](https://repl.it/@geomodeling/fft)
-* Task05 = [classical Runge–Kutta method](https://repl.it/@geomodeling/rg4)
+* Task05:
+  * [classical Runge–Kutta method](https://repl.it/@geomodeling/rg4)
+  * [1d heat equasion implicit](https://nbviewer.jupyter.org/github/Ubun1/geomodeling/blob/master/Task05/1d_heat_equation_implicit.ipynb)
 
 [try it!](https://try.jupyter.org/)
 
