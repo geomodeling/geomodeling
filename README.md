@@ -1,5 +1,5 @@
 
-# numerical methods
+# Numerical methods
 
 Tasks:
 
